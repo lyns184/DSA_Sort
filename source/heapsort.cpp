@@ -2,8 +2,6 @@
 using namespace std;
 using ld = long double;
 
-// To heapify a subtree rooted with node i
-// which is an index in arr[].
 void heapify(vector<ld> &arr, int n, int i) {
     int largest = i;
     int left = 2 * i + 1;
@@ -19,15 +17,12 @@ void heapify(vector<ld> &arr, int n, int i) {
     }
 }
 
-// Main function to do heap sort
 void heapSort(vector<ld> &arr) {
     int n = arr.size();
 
-    // Build heap (rearrange vector)
     for (int i = n / 2 - 1; i >= 0; i--)
         heapify(arr, n, i);
 
-    // One by one extract an element from heap
     for (int i = n - 1; i > 0; i--) {
         swap(arr[0], arr[i]);
         heapify(arr, i, 0);
