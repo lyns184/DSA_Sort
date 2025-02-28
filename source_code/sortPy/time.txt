@@ -1,0 +1,10 @@
+Sorting time 1: 12.534 ms
+Sorting time 2: 9.083 ms
+Sorting time 3: 8.573 ms
+Sorting time 4: 8.713 ms
+Sorting time 5: 8.152 ms
+Sorting time 6: 7.670 ms
+Sorting time 7: 7.458 ms
+Sorting time 8: 8.402 ms
+Sorting time 9: 7.688 ms
+Sorting time 10: 8.136 ms
